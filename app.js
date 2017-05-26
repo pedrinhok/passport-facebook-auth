@@ -1,6 +1,7 @@
 const port = 8080
 
 require("./config/database")
+require("dotenv").config()
 
 const express = require("express")
 const app = express()
