@@ -1,0 +1,31 @@
+{
+  "name": "passport-facebook-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrinhok/passport-facebook-auth.git"
+  },
+  "author": "Pedro Kayser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrinhok/passport-facebook-auth/issues"
+  },
+  "homepage": "https://github.com/pedrinhok/passport-facebook-auth#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-session": "^1.15.3",
+    "mongoose": "^4.10.2",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
